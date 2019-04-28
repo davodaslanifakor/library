@@ -1,15 +1,18 @@
 <template>
-    <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos assumenda omnis quas impedit iste blanditiis dolor repellendus culpa, ipsum tenetur iure enim nobis quis, consectetur repellat ab totam nulla eaque.
-    </div>
+  <div>
+    <lStartLogin/>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+import lStartLogin from "~/components/ui/start-login";
+
+export default {
+  components: {
+    lStartLogin
+  }
+};
 </script>
 
 <style lang="scss" scoped>
-
 </style>

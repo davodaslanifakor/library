@@ -1,5 +1,6 @@
 // css
 require("~/assets/css/main.scss");
-require('bootstrap/dist/css/bootstrap.min.css')
+require("bootstrap/dist/css/bootstrap.min.css");
 // js
 // import Vue from 'vue'
+import "./axios";
