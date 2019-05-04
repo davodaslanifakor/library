@@ -1,7 +1,7 @@
 const path = require("path");
 module.exports = {
   devServer: {
-    proxy: 'http://hiring.bsup.tk/oauth/authorize'
+    proxy: 'http://localhost:8080/'
   },
   configureWebpack: {
     resolve: {

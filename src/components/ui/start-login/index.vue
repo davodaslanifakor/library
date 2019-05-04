@@ -9,12 +9,12 @@
 
 <script>
 export default {
-  name: "home",
+  name: "login",
   methods: {
     verify() {
       this.$store.dispatch("verify/getToken");
     }
-  }
+  },
 };
 </script>
 
